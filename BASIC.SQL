@@ -1,6 +1,6 @@
 r password: *******
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
-Your MariaDB connection id is 5
+Your MariaDB connection id is 5           
 Server version: 10.6.7-MariaDB mariadb.org binary distribution
 
 Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
