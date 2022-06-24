@@ -35,7 +35,7 @@ MariaDB [company]> create trigger my_trigger before insert on employee for each 
 ERROR 1359 (HY000): Trigger 'company.my_trigger' already exists
 MariaDB [company]> create trigger our_trigger before insert on employee for each row begin insert into trigger_test values ( 'NEW.first_name');
     -> end $$
-Query OK, 0 rows affected (0.026 sec)
+Query OK, 0 rows affected (0.026 sec)    
 
 MariaDB [company]> insert into employee values (110, 'Kevin', 'Malone', '1978-02-19','M', 69000,106,3);
     -> end $$
